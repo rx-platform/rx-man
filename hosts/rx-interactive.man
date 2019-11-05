@@ -1,6 +1,19 @@
 
-*******************************************
-* Interactive Console rx-interactive Host *
-*******************************************
+****************************************
+* Interactive Console rx-platform Host *
+****************************************
 
-rx-platform Interactive Console....
+rx-platform Interactive Console Host is a command line interface
+based platform implementation.
+It enables easy and fast way for testing applications
+on local or remote machine by using only
+Console (Terminal) implementation.
+
+Currently there are 2 implementations available:
+
+ - on Win32 platform that is based on Win32
+   Console API
+
+ - on linux GNU platform based on standard GNU API 
+
+ On both platforms child process name is <rx-interactive>.

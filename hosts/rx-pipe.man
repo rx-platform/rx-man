@@ -9,7 +9,7 @@ It uses standard parent-child process relationship design.
 Currently there are 3 implementations available:
 
  - on Win32 and WinRT platforms that is based on <CreatePipe>
-   api found on both platfroms
+   api found on both platforms
 
  - on linux GNU platform based on <pipe> api is still missing
 
