@@ -1,12 +1,15 @@
 This command provides basic diagnostic and managment tools for security in the rx-platform
 
-command usage::>sec <sub-command> [OPTIONS]
+command usage
+.B    >sec <sub-command> [OPTIONS]
 
-List of available subcommands:
- - active - displays list of currently active users
- - help   - displays help
+List of available sub-commands:
+.B  active
+   displays list of currently active users
+.B  help
+   displays help
 
-sec active command
+.B sec active command
 =============================================
 Displays the static list of currently active users in a table containing following columns:
  - Id        - current system wide id of the user
@@ -14,3 +17,5 @@ Displays the static list of currently active users in a table containing followi
  - Console   - is there a console attached to this user instance?
  - System    - is this a system level user type?
  - Port      - associated port for this user instance
+ 
+ There are no specific command options for this sub-command.

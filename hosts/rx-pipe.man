@@ -1,16 +1,16 @@
-
 *******************************
 * Local Pipe rx-platform Host *
 *******************************
 
-rx-platform Local Pipe is a local process-based platform implementation.
+rx-platform Local Pipe is a local child process platform implementation.
 It uses standard parent-child process relationship design.
 
 Currently there are 3 implementations available:
 
  - on Win32 and WinRT platforms that is based on <CreatePipe>
-   api found on both platforms
+   API found on both platforms
 
- - on linux GNU platform based on <pipe> api is still missing
+ - on linux GNU platform based on <pipe> API,
+   I am still missing good pipe user for the OS.
 
  On both platforms child process name is <rx-pipe>.

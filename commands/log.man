@@ -1,0 +1,30 @@
+This command provides log querying and diagnostics for the log in the rx-platform
+
+command usage:
+.B    log <sub-command> [OPTIONS]
+
+List of available sub-commands:
+.B  last
+   displays log from in-memory buffer   
+.B  test
+   test log response times   
+.B  help
+   displays help
+   
+
+.B log last command
+=============================================
+Displays the log content from in-memory buffer that holds last log entries.
+
+Available options for this sub-command:
+.B    [d|t|w|e]
+
+.B  -d  
+    show debug level content, all events are listed	
+.B  -t
+   show trace level content all but debug events are listed   
+.B  -w
+   show warning level content only warning error and critical events are listed   
+.B  -e   
+   show error level content only error and critical events are listed
+   
